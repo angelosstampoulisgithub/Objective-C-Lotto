@@ -40,14 +40,6 @@
 }
 
 - (IBAction)btnLotto:(id)sender {
-//    if (_randomNumbers.count > 0){
-//        [_randomNumbers removeAllObjects];
-//        for(int i=0;i<51;i++){
-//            UILabel *number = [_numbers objectAtIndex:i];
-//            [number setBackgroundColor:UIColor.clearColor];
-//        }
-//    }
-//   
     
     for(int i=0;i<51;i++){
               UILabel *number = [_numbers objectAtIndex:i];
