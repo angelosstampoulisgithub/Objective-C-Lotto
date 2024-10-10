@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6365E1F2CAB443800E34EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E1E2CAB443800E34EFB /* AppDelegate.m */; };
+		D6365E222CAB443800E34EFB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E212CAB443800E34EFB /* SceneDelegate.m */; };
+		D6365E252CAB443800E34EFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E242CAB443800E34EFB /* ViewController.m */; };
+		D6365E282CAB443800E34EFB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D6365E272CAB443800E34EFB /* Base */; };
+		D6365E2A2CAB443900E34EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6365E292CAB443900E34EFB /* Assets.xcassets */; };
+		D6365E2D2CAB443900E34EFB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D6365E2C2CAB443900E34EFB /* Base */; };
+		D6365E302CAB443900E34EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E2F2CAB443900E34EFB /* main.m */; };
+		D6365E3A2CAB443A00E34EFB /* ObjectiveCLottoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E392CAB443A00E34EFB /* ObjectiveCLottoTests.m */; };
+		D6365E442CAB443A00E34EFB /* ObjectiveCLottoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E432CAB443A00E34EFB /* ObjectiveCLottoUITests.m */; };
+		D6365E462CAB443A00E34EFB /* ObjectiveCLottoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6365E452CAB443A00E34EFB /* ObjectiveCLottoUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6365E362CAB443A00E34EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6365E122CAB443800E34EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6365E192CAB443800E34EFB;
+			remoteInfo = ObjectiveCLotto;
+		};
+		D6365E402CAB443A00E34EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6365E122CAB443800E34EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6365E192CAB443800E34EFB;
+			remoteInfo = ObjectiveCLotto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6365E1A2CAB443800E34EFB /* ObjectiveCLotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCLotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6365E1D2CAB443800E34EFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6365E1E2CAB443800E34EFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6365E202CAB443800E34EFB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D6365E212CAB443800E34EFB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D6365E232CAB443800E34EFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6365E242CAB443800E34EFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6365E272CAB443800E34EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6365E292CAB443900E34EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6365E2C2CAB443900E34EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6365E2E2CAB443900E34EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6365E2F2CAB443900E34EFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6365E352CAB443A00E34EFB /* ObjectiveCLottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCLottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6365E392CAB443A00E34EFB /* ObjectiveCLottoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLottoTests.m; sourceTree = "<group>"; };
+		D6365E3F2CAB443A00E34EFB /* ObjectiveCLottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCLottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6365E432CAB443A00E34EFB /* ObjectiveCLottoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLottoUITests.m; sourceTree = "<group>"; };
+		D6365E452CAB443A00E34EFB /* ObjectiveCLottoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLottoUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6365E172CAB443800E34EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6365E322CAB443A00E34EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6365E3C2CAB443A00E34EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6365E112CAB443800E34EFB = {
+			isa = PBXGroup;
+			children = (
+				D6365E1C2CAB443800E34EFB /* ObjectiveCLotto */,
+				D6365E382CAB443A00E34EFB /* ObjectiveCLottoTests */,
+				D6365E422CAB443A00E34EFB /* ObjectiveCLottoUITests */,
+				D6365E1B2CAB443800E34EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6365E1B2CAB443800E34EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6365E1A2CAB443800E34EFB /* ObjectiveCLotto.app */,
+				D6365E352CAB443A00E34EFB /* ObjectiveCLottoTests.xctest */,
+				D6365E3F2CAB443A00E34EFB /* ObjectiveCLottoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6365E1C2CAB443800E34EFB /* ObjectiveCLotto */ = {
+			isa = PBXGroup;
+			children = (
+				D6365E1D2CAB443800E34EFB /* AppDelegate.h */,
+				D6365E1E2CAB443800E34EFB /* AppDelegate.m */,
+				D6365E202CAB443800E34EFB /* SceneDelegate.h */,
+				D6365E212CAB443800E34EFB /* SceneDelegate.m */,
+				D6365E232CAB443800E34EFB /* ViewController.h */,
+				D6365E242CAB443800E34EFB /* ViewController.m */,
+				D6365E262CAB443800E34EFB /* Main.storyboard */,
+				D6365E292CAB443900E34EFB /* Assets.xcassets */,
+				D6365E2B2CAB443900E34EFB /* LaunchScreen.storyboard */,
+				D6365E2E2CAB443900E34EFB /* Info.plist */,
+				D6365E2F2CAB443900E34EFB /* main.m */,
+			);
+			path = ObjectiveCLotto;
+			sourceTree = "<group>";
+		};
+		D6365E382CAB443A00E34EFB /* ObjectiveCLottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6365E392CAB443A00E34EFB /* ObjectiveCLottoTests.m */,
+			);
+			path = ObjectiveCLottoTests;
+			sourceTree = "<group>";
+		};
+		D6365E422CAB443A00E34EFB /* ObjectiveCLottoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6365E432CAB443A00E34EFB /* ObjectiveCLottoUITests.m */,
+				D6365E452CAB443A00E34EFB /* ObjectiveCLottoUITestsLaunchTests.m */,
+			);
+			path = ObjectiveCLottoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6365E192CAB443800E34EFB /* ObjectiveCLotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6365E492CAB443A00E34EFB /* Build configuration list for PBXNativeTarget "ObjectiveCLotto" */;
+			buildPhases = (
+				D6365E162CAB443800E34EFB /* Sources */,
+				D6365E172CAB443800E34EFB /* Frameworks */,
+				D6365E182CAB443800E34EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCLotto;
+			productName = ObjectiveCLotto;
+			productReference = D6365E1A2CAB443800E34EFB /* ObjectiveCLotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6365E342CAB443A00E34EFB /* ObjectiveCLottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6365E4C2CAB443A00E34EFB /* Build configuration list for PBXNativeTarget "ObjectiveCLottoTests" */;
+			buildPhases = (
+				D6365E312CAB443A00E34EFB /* Sources */,
+				D6365E322CAB443A00E34EFB /* Frameworks */,
+				D6365E332CAB443A00E34EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6365E372CAB443A00E34EFB /* PBXTargetDependency */,
+			);
+			name = ObjectiveCLottoTests;
+			productName = ObjectiveCLottoTests;
+			productReference = D6365E352CAB443A00E34EFB /* ObjectiveCLottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6365E3E2CAB443A00E34EFB /* ObjectiveCLottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6365E4F2CAB443A00E34EFB /* Build configuration list for PBXNativeTarget "ObjectiveCLottoUITests" */;
+			buildPhases = (
+				D6365E3B2CAB443A00E34EFB /* Sources */,
+				D6365E3C2CAB443A00E34EFB /* Frameworks */,
+				D6365E3D2CAB443A00E34EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6365E412CAB443A00E34EFB /* PBXTargetDependency */,
+			);
+			name = ObjectiveCLottoUITests;
+			productName = ObjectiveCLottoUITests;
+			productReference = D6365E3F2CAB443A00E34EFB /* ObjectiveCLottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6365E122CAB443800E34EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D6365E192CAB443800E34EFB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D6365E342CAB443A00E34EFB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6365E192CAB443800E34EFB;
+					};
+					D6365E3E2CAB443A00E34EFB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6365E192CAB443800E34EFB;
+					};
+				};
+			};
+			buildConfigurationList = D6365E152CAB443800E34EFB /* Build configuration list for PBXProject "ObjectiveCLotto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6365E112CAB443800E34EFB;
+			productRefGroup = D6365E1B2CAB443800E34EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6365E192CAB443800E34EFB /* ObjectiveCLotto */,
+				D6365E342CAB443A00E34EFB /* ObjectiveCLottoTests */,
+				D6365E3E2CAB443A00E34EFB /* ObjectiveCLottoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6365E182CAB443800E34EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6365E2A2CAB443900E34EFB /* Assets.xcassets in Resources */,
+				D6365E2D2CAB443900E34EFB /* Base in Resources */,
+				D6365E282CAB443800E34EFB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6365E332CAB443A00E34EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6365E3D2CAB443A00E34EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6365E162CAB443800E34EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6365E252CAB443800E34EFB /* ViewController.m in Sources */,
+				D6365E1F2CAB443800E34EFB /* AppDelegate.m in Sources */,
+				D6365E302CAB443900E34EFB /* main.m in Sources */,
+				D6365E222CAB443800E34EFB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6365E312CAB443A00E34EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6365E3A2CAB443A00E34EFB /* ObjectiveCLottoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6365E3B2CAB443A00E34EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6365E442CAB443A00E34EFB /* ObjectiveCLottoUITests.m in Sources */,
+				D6365E462CAB443A00E34EFB /* ObjectiveCLottoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6365E372CAB443A00E34EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6365E192CAB443800E34EFB /* ObjectiveCLotto */;
+			targetProxy = D6365E362CAB443A00E34EFB /* PBXContainerItemProxy */;
+		};
+		D6365E412CAB443A00E34EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6365E192CAB443800E34EFB /* ObjectiveCLotto */;
+			targetProxy = D6365E402CAB443A00E34EFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6365E262CAB443800E34EFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6365E272CAB443800E34EFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6365E2B2CAB443900E34EFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6365E2C2CAB443900E34EFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6365E472CAB443A00E34EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6365E482CAB443A00E34EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6365E4A2CAB443A00E34EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectiveCLotto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCLotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6365E4B2CAB443A00E34EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectiveCLotto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCLotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6365E4D2CAB443A00E34EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCLottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCLotto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCLotto";
+			};
+			name = Debug;
+		};
+		D6365E4E2CAB443A00E34EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCLottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCLotto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCLotto";
+			};
+			name = Release;
+		};
+		D6365E502CAB443A00E34EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCLottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectiveCLotto;
+			};
+			name = Debug;
+		};
+		D6365E512CAB443A00E34EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCLottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectiveCLotto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6365E152CAB443800E34EFB /* Build configuration list for PBXProject "ObjectiveCLotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6365E472CAB443A00E34EFB /* Debug */,
+				D6365E482CAB443A00E34EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6365E492CAB443A00E34EFB /* Build configuration list for PBXNativeTarget "ObjectiveCLotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6365E4A2CAB443A00E34EFB /* Debug */,
+				D6365E4B2CAB443A00E34EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6365E4C2CAB443A00E34EFB /* Build configuration list for PBXNativeTarget "ObjectiveCLottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6365E4D2CAB443A00E34EFB /* Debug */,
+				D6365E4E2CAB443A00E34EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6365E4F2CAB443A00E34EFB /* Build configuration list for PBXNativeTarget "ObjectiveCLottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6365E502CAB443A00E34EFB /* Debug */,
+				D6365E512CAB443A00E34EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6365E122CAB443800E34EFB /* Project object */;
+}
